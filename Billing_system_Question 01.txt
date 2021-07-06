@@ -1,0 +1,33 @@
+A program is needed for Black Cabs Transport Company, to calculate the total amount a particular 
+customer should pay for a given trip. The services provided by the cab service company are listed 
+below.
+
+Package No    Package Name
+
+   1            Comfort Journey
+   2            Budget cab Journey
+   3            Crowded Journey – Dual A/C
+   4            Crowded Journey – Single A/C
+
+For comfort Journey package, Rs.150.00 is charged for the first kilometer and for each additional 
+kilometer, Rs.175.00 will be charged. For a Budget cab Journey package each kilometer is 
+charged at Rs. 100.00. For a Crowded Journey – Dual A/C package the first kilometer is charged 
+at Rs. 130.00 and each remaining kilometer is charged at Rs.150.00. If the customer selected 
+Crowded Journey – Single A/C package, the first kilometer is charged at Rs120.00 and for each 
+remaining kilometer is charged at Rs. 130.00.
+
+(a) Write a C program to input the package no and total distance of the tour in Kilometers
+through the keyboard. The program should display corresponding total amount that the 
+customer has to pay. (Hint: use nested selection statements.)
+
+Ex: Package No: 2
+     Total Distance: 5 Km
+     Total Amount: Rs. 500
+
+(b) Modify your program to display an error message “Invalid Package Number” if the user 
+inputs a wrong package number.
+
+(c) Modify the program to handle many customers. After displaying the total amount to pay 
+by the first customer, your program should display the prompt “Do you have more 
+customers?” If the user inputs “y” or “Y”, program should ask for the package no and 
+total distance of the next customer. If the user inputs “n” or “N” program should terminate.
